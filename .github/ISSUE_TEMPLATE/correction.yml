@@ -1,0 +1,104 @@
+name: "Correction or clarification / 纠错或澄清"
+description: "Report an inaccurate, outdated, ambiguous, or mistranslated statement. / 报告不准确、过时、含糊或翻译有误的内容。"
+title: "[Correction]: "
+labels:
+  - "content"
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for helping keep the guide accurate. Please separate verifiable facts from interpretation and do not include confidential information.
+
+        感谢你帮助我们提高内容准确性。请区分可验证事实与个人判断，并勿提交机密信息。
+
+  - type: input
+    id: location
+    attributes:
+      label: "Affected page or section / 涉及页面或章节"
+      description: "Provide the repository path or public URL and the heading. / 请提供仓库路径或公开链接及章节标题。"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: language
+    attributes:
+      label: "Language affected / 涉及语言"
+      options:
+        - "English"
+        - "简体中文"
+        - "Both / 两者"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: correction_type
+    attributes:
+      label: "Correction type / 纠错类型"
+      options:
+        - "Factual inaccuracy / 事实错误"
+        - "Outdated information / 信息过时"
+        - "Broken or unsuitable source / 来源失效或不适当"
+        - "Ambiguous wording / 表述含糊"
+        - "Translation issue / 翻译问题"
+        - "Framework or example clarity / 框架或示例需要澄清"
+    validations:
+      required: true
+
+  - type: textarea
+    id: current_content
+    attributes:
+      label: "Current content and problem / 当前内容与问题"
+      description: "Quote only the minimum necessary text, then explain precisely what is wrong or unclear. / 仅引用必要的最短文本，并准确说明错误或含糊之处。"
+    validations:
+      required: true
+
+  - type: textarea
+    id: proposed_change
+    attributes:
+      label: "Proposed correction / 建议修改"
+      description: "Provide corrected wording or the exact factual change you recommend. / 请提供建议文字或明确的事实修改。"
+    validations:
+      required: true
+
+  - type: textarea
+    id: evidence
+    attributes:
+      label: "Evidence and dates / 证据与日期"
+      description: "List public source URLs, publisher, publication date, and your access date. For field evidence, explain how it was observed without revealing protected information. / 请列出公开来源、发布机构、发布日期与访问日期；如为一线证据，请在不泄密的前提下说明观察方式。"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: evidence_type
+    attributes:
+      label: "Strongest evidence type / 最强证据类型"
+      options:
+        - "First-party official source / 官方一手来源"
+        - "Peer-reviewed paper or specification / 同行评审论文或规范"
+        - "Public repository or reproducible test / 公开仓库或可复现实验"
+        - "Authorized field evidence / 经授权的一线证据"
+        - "Reasoned clarification; no external claim / 逻辑澄清，不涉及外部事实"
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: safeguards
+    attributes:
+      label: "Submission checks / 提交检查"
+      options:
+        - label: "I have not included customer secrets, personal data, credentials, or NDA-covered material. / 未包含客户机密、个人数据、凭据或保密协议覆盖的材料。"
+          required: true
+        - label: "I have distinguished a source's direct claim from my interpretation. / 已区分来源中的直接陈述与个人判断。"
+          required: true
+
+  - type: dropdown
+    id: pr_help
+    attributes:
+      label: "Would you like to submit the fix? / 是否愿意提交修复？"
+      options:
+        - "Yes / 是"
+        - "No / 否"
+        - "I would like guidance / 希望获得指导"
+    validations:
+      required: true
+

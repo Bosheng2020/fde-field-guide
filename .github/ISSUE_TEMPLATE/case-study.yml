@@ -1,0 +1,112 @@
+name: "Propose a case study / 提交案例"
+description: "Share a public, authorized anonymized, or explicitly illustrative FDE case. / 分享公开、经授权匿名化或明确标注为示例的 FDE 案例。"
+title: "[Case Study]: "
+labels:
+  - "case-study"
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Strong cases explain the workflow, trade-offs, failures, evidence, and reusable learning—not only the technology or success story. Do not submit customer information you are not authorized to publish.
+
+        高质量案例应说明工作流、取舍、失败、证据和可复用经验，而不只是技术或成功故事。请勿提交未经授权发布的客户信息。
+
+  - type: input
+    id: case_title
+    attributes:
+      label: "Proposed title / 建议标题"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: case_type
+    attributes:
+      label: "Case classification / 案例类型"
+      options:
+        - "Public and source-backed / 公开且有来源支持"
+        - "Anonymized with explicit sharing authority / 已明确授权分享的匿名案例"
+        - "Illustrative or fictional / 示例或虚构案例"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: contribution_language
+    attributes:
+      label: "Available language / 可提供语言"
+      options:
+        - "English and Chinese / 中英文"
+        - "English"
+        - "简体中文"
+    validations:
+      required: true
+
+  - type: textarea
+    id: context_workflow
+    attributes:
+      label: "Context and real workflow / 背景与真实工作流"
+      description: "Describe users, trigger, decisions, systems, handoffs, baseline, and constraints. Remove unnecessary identifying details. / 说明用户、触发条件、决策、系统、交接、基线和约束，并移除不必要的识别信息。"
+    validations:
+      required: true
+
+  - type: textarea
+    id: request_problem
+    attributes:
+      label: "Initial request versus real problem / 初始需求与真实问题"
+      description: "Explain what was initially requested, what discovery revealed, and why the scope changed or stayed the same. / 说明最初需求、需求发现揭示的问题，以及范围为何变化或保持不变。"
+    validations:
+      required: true
+
+  - type: textarea
+    id: approach
+    attributes:
+      label: "Approach and control boundary / 方案与控制边界"
+      description: "Describe the smallest complete system, data and integrations, evaluation, autonomy level, human approvals, and rollout. / 说明最小完整系统、数据与集成、评估、自主等级、人工审批和推广方式。"
+    validations:
+      required: true
+
+  - type: textarea
+    id: evidence_results
+    attributes:
+      label: "Evidence and results / 证据与结果"
+      description: "Separate baselines, targets, measured outcomes, estimates, sample sizes, and time periods. Include negative or inconclusive findings. / 区分基线、目标、实测结果、估算、样本量和周期，并包括负面或不确定结果。"
+    validations:
+      required: true
+
+  - type: textarea
+    id: failures_tradeoffs
+    attributes:
+      label: "Failures, trade-offs, and what changed / 失败、取舍与调整"
+      description: "Describe important errors, adoption barriers, architecture compromises, and decisions to scale, redesign, or stop. / 说明重要错误、采用障碍、架构取舍，以及扩大、重构或停止的决策。"
+    validations:
+      required: true
+
+  - type: textarea
+    id: reusable_learning
+    attributes:
+      label: "Reusable learning / 可复用经验"
+      description: "Identify new eval cases, reusable components, product changes, playbook updates, or research/post-training signals. / 指明新增评估案例、可复用组件、产品变更、手册更新或研究/后训练信号。"
+    validations:
+      required: true
+
+  - type: textarea
+    id: sources_authority
+    attributes:
+      label: "Sources and authority to share / 来源与分享授权"
+      description: "For public cases, list first-party URLs and access dates. For anonymized cases, explain your role, who authorized publication, and what was removed or generalized. For illustrative cases, list the real practices that inspired it. / 公开案例请列一手来源和访问日期；匿名案例请说明你的角色、授权方及匿名化内容；示例案例请列出其依据的真实实践。"
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: case_checks
+    attributes:
+      label: "Publication checks / 发布检查"
+      options:
+        - label: "I am authorized to share this material and have removed customer secrets, personal data, credentials, private traces, and NDA-covered content. / 我有权分享这些材料，并已移除客户机密、个人数据、凭据、私有轨迹和保密协议覆盖内容。"
+          required: true
+        - label: "Measured results, estimates, and illustrative numbers are clearly distinguished. / 已清楚区分实测结果、估算与示例数字。"
+          required: true
+        - label: "The case includes failures and limitations, not only positive outcomes. / 案例包含失败与局限，而不仅是正面结果。"
+          required: true
+        - label: "I agree that maintainers may request additional anonymization or decline details that create confidentiality risk. / 我同意维护者可要求进一步匿名化，或拒绝存在保密风险的细节。"
+          required: true
+

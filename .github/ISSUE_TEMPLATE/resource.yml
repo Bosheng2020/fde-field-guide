@@ -1,0 +1,127 @@
+name: "Suggest a resource / 推荐资料"
+description: "Propose a primary source, paper, repository, or field-tested tool. / 推荐一手来源、论文、仓库或经过实践验证的工具。"
+title: "[Resource]: "
+labels:
+  - "resource"
+body:
+  - type: markdown
+    attributes:
+      value: |
+        This guide favors a small, maintained map over an undifferentiated link dump. Explain what decision or skill this resource helps a reader improve.
+
+        本指南追求少而精且持续维护的资料地图，而不是链接堆砌。请说明该资料能帮助读者改善哪项决策或能力。
+
+  - type: input
+    id: resource_title
+    attributes:
+      label: "Resource title / 资料标题"
+    validations:
+      required: true
+
+  - type: input
+    id: resource_url
+    attributes:
+      label: "Canonical public URL / 官方公开链接"
+      description: "Use the original publisher, documentation, paper, or repository URL when available. / 尽量使用原始发布方、官方文档、论文或仓库链接。"
+    validations:
+      required: true
+
+  - type: input
+    id: publisher
+    attributes:
+      label: "Author or organization / 作者或机构"
+    validations:
+      required: true
+
+  - type: input
+    id: dates
+    attributes:
+      label: "Publication or release date, and access date / 发布或版本日期及访问日期"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: resource_type
+    attributes:
+      label: "Resource type / 资料类型"
+      options:
+        - "Official documentation or career page / 官方文档或招聘页面"
+        - "Engineering or research publication / 工程或研究出版物"
+        - "Open-source repository / 开源仓库"
+        - "Standard, benchmark, or dataset / 标准、基准或数据集"
+        - "Field-tested playbook or case study / 经实践验证的手册或案例"
+        - "High-quality secondary analysis / 高质量二手分析"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: evidence_level
+    attributes:
+      label: "Evidence level / 证据等级"
+      options:
+        - "Primary / first-party / 一手来源"
+        - "Independent and reproducible / 独立且可复现"
+        - "Secondary synthesis / 二手归纳"
+        - "Opinion or emerging practice / 观点或新兴实践"
+    validations:
+      required: true
+
+  - type: textarea
+    id: relevance
+    attributes:
+      label: "Why it belongs / 收录理由"
+      description: "Summarize the specific FDE question, decision, or competency it supports, and what is distinctive about it. / 说明它具体支持哪个 FDE 问题、决策或能力，以及其独特价值。"
+    validations:
+      required: true
+
+  - type: textarea
+    id: key_takeaway
+    attributes:
+      label: "Key takeaway and limitations / 核心收获与局限"
+      description: "Write an original two-to-five sentence summary. Include limitations, commercial bias, or maintenance concerns. / 用原创的两到五句话概括，并说明局限、商业偏向或维护风险。"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: destination
+    attributes:
+      label: "Best destination / 建议收录位置"
+      options:
+        - "Official sources / 官方来源"
+        - "Open-source stack / 开源技术栈"
+        - "Architecture and evaluation / 架构与评估"
+        - "Security and governance / 安全与治理"
+        - "Adoption, GTM, and value / 采用、GTM 与价值"
+        - "Career and learning path / 职业与学习路径"
+        - "Unsure / 不确定"
+    validations:
+      required: true
+
+  - type: textarea
+    id: rights_access
+    attributes:
+      label: "License, access, and maintenance / 许可、访问与维护"
+      description: "For code or data, state the license. Note paywalls, login requirements, archived status, or signs the resource is unmaintained. / 对代码或数据请注明许可证；同时说明付费墙、登录要求、归档状态或停止维护迹象。"
+    validations:
+      required: true
+
+  - type: textarea
+    id: relationship
+    attributes:
+      label: "Your relationship to the resource / 你与资料的关系"
+      description: "Disclose authorship, employment, investment, sponsorship, or other relevant interests; write 'none' when there is no relationship. / 披露作者、雇佣、投资、赞助等相关关系；如无关系请明确写明。"
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: resource_checks
+    attributes:
+      label: "Submission checks / 提交检查"
+      options:
+        - label: "The link is publicly accessible or its access requirement is clearly stated. / 链接可公开访问，或已明确说明访问条件。"
+          required: true
+        - label: "The summary is original and does not copy substantial text from the source. / 摘要为原创，未大段复制来源内容。"
+          required: true
+        - label: "No referral, tracking, or affiliate parameters are included. / 链接不包含推荐、追踪或联盟营销参数。"
+          required: true
+

@@ -1,0 +1,17 @@
+name: Content quality
+
+on:
+  push:
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  bilingual-pairs:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Check bilingual file pairs
+        run: bash scripts/check-bilingual.sh
+

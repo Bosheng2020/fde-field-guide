@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+message: "If you use the FIELD Framework or FDE Delivery Maturity Model, please cite this repository."
+title: "The Forward-Deployed Engineering Field Guide"
+type: software
+authors:
+  - family-names: Ding
+    given-names: Bosheng
+url: "https://github.com/Bosheng2020/fde-field-guide"
+repository-code: "https://github.com/Bosheng2020/fde-field-guide"
+license: CC-BY-4.0
+version: 1.0.0
+date-released: 2026-10-22
+keywords:
+  - forward-deployed-engineering
+  - applied-ai
+  - llm
+  - agents
+  - evaluation
+  - deployment
+

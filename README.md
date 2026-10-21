@@ -1,20 +1,29 @@
-# The Forward-Deployed Engineering Field Guide
+# Forward Deployed Engineer (FDE) Field Guide
 
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC_BY_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
 [![Bilingual](https://img.shields.io/badge/language-English_%7C_%E4%B8%AD%E6%96%87-39c5f3)](README.zh-CN.md)
 [![Status: Living Guide](https://img.shields.io/badge/status-living_guide-6f42c1)](#how-to-use-this-guide)
+[![Content quality](https://github.com/Bosheng2020/fde-field-guide/actions/workflows/content-quality.yml/badge.svg)](https://github.com/Bosheng2020/fde-field-guide/actions/workflows/content-quality.yml)
 
 **English** · [简体中文](README.zh-CN.md)
 
-A bilingual, vendor-neutral playbook for turning frontier AI capabilities into adopted, measurable production outcomes.
+**A bilingual, source-backed playbook for deploying AI and LLM systems—from ambiguous customer problems to safe, adopted, measurable production outcomes.**
 
-This repository explains what Forward-Deployed Engineers (FDEs) actually do, the skills and operating systems the role requires, and how to move from an impressive demo to a safe, useful, compounding deployment. It combines a source-backed industry map with practical templates and original frameworks developed by **Bosheng Ding**.
+## Forward-Deployed Engineering, in brief
 
-> **Working definition:** A Forward-Deployed Engineer owns the path from an ambiguous, high-value customer problem to an adopted, measurable production system.
+A Forward-Deployed Engineer (FDE) turns an ambiguous, high-value customer problem into an adopted, measurable production system. The work spans discovery, technical scoping, system design, hands-on implementation, AI evaluation, production hardening, rollout, user adoption, and field-to-product learning.
+
+This open, vendor-neutral guide covers Forward Deployed Engineer, Forward Deployment Engineer, Forward Deployed Software Engineer (FDSE), Applied AI Engineer, and adjacent deployment roles. It connects LLM deployment, AI agents, RAG, evaluation and observability, security and governance, post-training, production rollout, adoption, GTM, interview preparation, and a 30/60/90-day learning path. It combines first-party industry sources, reusable bilingual templates, illustrative deployment cases, and two original syntheses by **Bosheng Ding**: the FIELD Framework and the FDE Delivery Maturity Model.
+
+> **Working definition:** A Forward-Deployed Engineer owns the path from an ambiguous, high-value customer problem to an adopted, measurable production system. The exact boundary varies by company.
+
+Read the companion essay: [Beyond the Demo: What a Forward-Deployed Engineer Really Does](https://www.boshengding.com/blog/beyond-the-demo-forward-deployed-engineer).
+
+_Last reviewed: 2026-10-22_
 
 ## Why this guide exists
 
-“FDE” is used differently across companies. Palantir, OpenAI, Cursor, Scale AI, and younger AI companies share a family resemblance—engineers work close to customers and own real delivery—but their products, operating models, and role boundaries differ.
+“FDE” is used differently across companies. [Palantir](https://www.palantir.com/docs/foundry/architecture-center/overview), [OpenAI](https://openai.com/careers/forward-deployed-engineer-singapore-singapore/), [Anthropic](https://job-boards.greenhouse.io/anthropic/jobs/5423029008), and [Scale AI](https://scale.com/careers/4673310005) describe related patterns—engineers work close to customers and own real delivery—but their products, operating models, and role boundaries differ.
 
 This guide separates three things that are often mixed together:
 
@@ -23,6 +32,32 @@ This guide separates three things that are often mixed together:
 3. **Original frameworks** — clearly attributed tools for framing and running FDE work.
 
 It is an independent educational project and is not affiliated with any company referenced here.
+
+## Quick answers
+
+### What is a Forward-Deployed Engineer?
+
+A Forward-Deployed Engineer owns the path from an ambiguous customer problem to an adopted, measurable production system. The role combines problem framing, hands-on engineering, evaluation, rollout, user adoption, and converting field evidence into reusable product learning. See [FDE fundamentals](docs/en/01-fundamentals.md) for the sourced role map and its limits.
+
+### How does an AI system move from demo to production?
+
+This guide proposes the **FIELD** loop: Frame the outcome, Instrument reality, Engineer the smallest complete system, Launch into the workflow, and Distill field evidence into reusable learning. Each stage requires evidence; a polished demonstration alone does not establish production readiness or adoption.
+
+### What counts as production-ready AI?
+
+The original FDE Delivery Maturity Model distinguishes six evidence levels: L0 Demonstrable, L1 Useful, L2 Repeatable, L3 Operable, L4 Adopted, and L5 Compounding. For consequential deployments, this guide treats L3—monitoring, access control, runbooks, and rollback—as the minimum level for a production claim. L4 additionally requires sustained use and measurable outcome improvement.
+
+### How should FDE success be measured?
+
+FDE success requires evidence across four dimensions: system quality, user adoption, business impact, and organizational learning. A deployment is incomplete when it works technically but is not repeatedly used, or when it creates customer value without producing reusable product learning.
+
+### When should an FDE use post-training?
+
+Post-training should follow failure localization, not precede it. First determine whether the problem comes from model behavior, context, retrieval, data, tool contracts, orchestration, permissions, interface, or workflow design. Post-training becomes a strong candidate when the desired behavior is stable and measurable, suitable data exists, simpler interventions miss the target, and the lifecycle benefit justifies the added complexity.
+
+For more concise answers and stable definitions, use the [FDE FAQ and glossary](docs/en/14-faq-glossary.md).
+
+> The FIELD Framework and FDE Delivery Maturity Model are original syntheses by Bosheng Ding, not industry standards. For attribution, use [CITATION.cff](CITATION.cff).
 
 ## Start here
 
@@ -41,6 +76,7 @@ It is an independent educational project and is not affiliated with any company 
 | Decide whether to post-train | [Post-training decision guide](docs/en/11-post-training.md) |
 | Prepare for or hire into the role | [Career and interview guide](docs/en/12-career-interview.md) |
 | Learn in 90 days | [30/60/90 learning path](docs/en/13-learning-path.md) |
+| Get direct answers and stable definitions | [FDE FAQ and glossary](docs/en/14-faq-glossary.md) |
 | Run a real project | [Ready-to-use templates](#ready-to-use-templates) |
 | Study complete walkthroughs | [Illustrative deployment cases](examples/README.md) |
 | Verify claims or explore tools | [Official sources](resources/official-sources.md) · [Open-source stack](resources/open-source-stack.md) |
@@ -86,8 +122,8 @@ Also original to this guide, the maturity model prevents teams from calling a po
 ```text
 .
 ├── README.md / README.zh-CN.md       bilingual entry points
-├── docs/en/                          English field guide
-├── docs/zh-CN/                       中文实战手册
+├── docs/en/                          14-chapter English field guide
+├── docs/zh-CN/                       14 章中文实战手册
 ├── templates/                        bilingual delivery templates
 ├── examples/                         worked, fictional deployment cases
 ├── resources/                        official sources and open-source tools
@@ -98,12 +134,12 @@ Also original to this guide, the maturity model prevents teams from calling a po
 
 | Template | English | 中文 |
 |---|---|---|
-| Discovery and outcome canvas | [Open](templates/discovery-canvas.md) | [打开](templates/discovery-canvas.zh-CN.md) |
-| Evaluation plan | [Open](templates/evaluation-plan.md) | [打开](templates/evaluation-plan.zh-CN.md) |
-| Architecture and risk review | [Open](templates/architecture-risk-review.md) | [打开](templates/architecture-risk-review.zh-CN.md) |
-| Production launch checklist | [Open](templates/launch-checklist.md) | [打开](templates/launch-checklist.zh-CN.md) |
-| Field signal / product feedback | [Open](templates/field-signal.md) | [打开](templates/field-signal.zh-CN.md) |
-| Deployment review | [Open](templates/deployment-review.md) | [打开](templates/deployment-review.zh-CN.md) |
+| Discovery and outcome canvas | [English discovery canvas](templates/discovery-canvas.md) | [中文需求发现画布](templates/discovery-canvas.zh-CN.md) |
+| Evaluation plan | [English evaluation plan](templates/evaluation-plan.md) | [中文评估计划](templates/evaluation-plan.zh-CN.md) |
+| Architecture and risk review | [English architecture review](templates/architecture-risk-review.md) | [中文架构与风险评审](templates/architecture-risk-review.zh-CN.md) |
+| Production launch checklist | [English launch checklist](templates/launch-checklist.md) | [中文生产上线清单](templates/launch-checklist.zh-CN.md) |
+| Field signal / product feedback | [English field-signal template](templates/field-signal.md) | [中文一线信号模板](templates/field-signal.zh-CN.md) |
+| Deployment review | [English deployment review](templates/deployment-review.md) | [中文部署复盘](templates/deployment-review.zh-CN.md) |
 
 ## How to use this guide
 

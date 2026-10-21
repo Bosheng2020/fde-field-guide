@@ -1,4 +1,4 @@
-# 岗位地图：FDE 与相邻职能
+# Forward Deployed Engineer 与解决方案、架构和顾问岗位的区别
 
 **语言：** [English](../en/02-role-map.md) · 简体中文  
 **内容类型：** 参考官方岗位说明后的作者总结  
@@ -74,4 +74,11 @@
 - **安全 / GRC：** 风险接受和控制设计。
 
 小公司可能由一个人覆盖多个角色，但每项责任仍应有明确负责人。
+
+## 继续阅读
+
+- [理解 FDE 基础](01-fundamentals.md)
+- [评估 FDE 能力](04-skills-matrix.md)
+- [查看 FDE 常见问题与术语表](14-faq-glossary.md)
+- [返回实战手册目录](../../README.zh-CN.md)
 

@@ -1,4 +1,4 @@
-# FDE Skills Matrix
+# Forward Deployed Engineer Skills Matrix
 
 **Language:** English · [简体中文](../zh-CN/04-skills-matrix.md)  
 **Content type:** Author synthesis and self-assessment rubric  
@@ -71,4 +71,11 @@ The repository itself is less important than the evidence and decisions it makes
 ## Self-assessment
 
 For every domain, write one artifact or example proving your claimed level. If you cannot name evidence, rate yourself one level lower and design a project that produces it.
+
+## Continue reading
+
+- [Build a 30/60/90-day learning plan](13-learning-path.md)
+- [Prepare for FDE interviews](12-career-interview.md)
+- [Study the deployment lifecycle](03-deployment-lifecycle.md)
+- [Return to the field-guide index](../../README.md)
 

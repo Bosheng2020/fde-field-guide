@@ -1,4 +1,4 @@
-# The Forward-Deployment Lifecycle
+# Forward Deployed Engineering Lifecycle: Discovery to Production and Adoption
 
 **Language:** English · [简体中文](../zh-CN/03-deployment-lifecycle.md)  
 **Content type:** Practical playbook  
@@ -94,4 +94,11 @@ flowchart LR
 ```
 
 Use the [field-signal template](../../templates/field-signal.md) and [deployment review](../../templates/deployment-review.md).
+
+## Continue reading
+
+- [Apply the FIELD Framework](10-field-framework.md)
+- [Design evaluations and observability](06-evaluation-observability.md)
+- [Use the production launch checklist](../../templates/launch-checklist.md)
+- [Return to the field-guide index](../../README.md)
 

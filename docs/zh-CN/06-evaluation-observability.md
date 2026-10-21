@@ -1,4 +1,4 @@
-# 评估与可观测性
+# 生产部署中的 LLM 与 AI Agent 评测和可观测性
 
 **语言：** [English](../en/06-evaluation-observability.md) · 简体中文  
 **内容类型：** 工程实战手册  
@@ -129,4 +129,11 @@ flowchart LR
 - 把评估数据全部用于训练，没有保留独立集合。
 
 可直接使用[评估计划模板](../../templates/evaluation-plan.zh-CN.md)。OpenAI 官方的 [Agent 评估指南](https://developers.openai.com/api/docs/guides/agent-evals)和[评估最佳实践](https://developers.openai.com/api/docs/guides/evaluation-best-practices)提供了实现细节；选择托管工具前，请检查 [OpenAI 产品弃用信息](https://developers.openai.com/api/docs/deprecations)。
+
+## 继续阅读
+
+- [查看 AI Agent 架构模式](05-architecture-patterns.md)
+- [应用后训练决策指南](11-post-training.md)
+- [使用评估计划模板](../../templates/evaluation-plan.zh-CN.md)
+- [返回实战手册目录](../../README.zh-CN.md)
 

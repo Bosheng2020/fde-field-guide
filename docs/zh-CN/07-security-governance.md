@@ -1,4 +1,4 @@
-# 安全、治理与生产风险
+# Forward Deployed Engineer 的生产 AI 安全与治理
 
 **语言：** [English](../en/07-security-governance.md) · 简体中文  
 **内容类型：** 面向风险的工程指南  
@@ -120,4 +120,11 @@
 - [MCP 安全最佳实践](https://github.com/modelcontextprotocol/modelcontextprotocol/blob/main/docs/docs/2026-07-28/tutorials/security/security_best_practices.mdx)
 
 框架只能提供输入，不能证明系统安全。控制措施必须落实到具体工作流、数据、工具和后果上。
+
+## 继续阅读
+
+- [查看 AI Agent 架构模式](05-architecture-patterns.md)
+- [建立评测与可观测性](06-evaluation-observability.md)
+- [使用架构与风险评审模板](../../templates/architecture-risk-review.zh-CN.md)
+- [返回实战手册目录](../../README.zh-CN.md)
 

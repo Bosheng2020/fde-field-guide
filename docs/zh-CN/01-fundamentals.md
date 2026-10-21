@@ -1,4 +1,4 @@
-# FDE 基础
+# 什么是 Forward Deployed Engineer（FDE）？
 
 **语言：** [English](../en/01-fundamentals.md) · 简体中文  
 **内容类型：** 有来源的行业总结 + 作者实践归纳  
@@ -93,4 +93,11 @@ AI 方向的 FDE 还要面对概率性行为、快速变化的模型能力、评
 - [Scale AI 公共部门 FDSE 职位](https://scale.com/careers/4481921005)强调深入用户环境并负责从原型到生产的全过程。
 
 更多验证时间与背景见[官方资料](../../resources/official-sources.md)。
+
+## 继续阅读
+
+- [比较 FDE 与相邻岗位](02-role-map.md)
+- [查看部署生命周期](03-deployment-lifecycle.md)
+- [使用 FDE 常见问题与术语表](14-faq-glossary.md)
+- [返回实战手册目录](../../README.zh-CN.md)
 

@@ -1,4 +1,4 @@
-# Post-Training Decision Guide for FDEs
+# Post-Training Decision Guide for Forward Deployed Engineers
 
 **Language:** English · [简体中文](../zh-CN/11-post-training.md)  
 **Content type:** Technical decision guide  

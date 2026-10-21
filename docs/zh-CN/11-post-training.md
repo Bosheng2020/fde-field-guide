@@ -1,4 +1,4 @@
-# FDE 后训练决策指南
+# Forward Deployed Engineer 后训练决策指南
 
 **语言：** [English](../en/11-post-training.md) · 简体中文  
 **内容类型：** 技术决策指南  

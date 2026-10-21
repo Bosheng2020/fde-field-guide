@@ -1,4 +1,4 @@
-# FDE Career and Interview Guide
+# Forward Deployed Engineer Interview and Career Guide
 
 **Language:** English · [简体中文](../zh-CN/12-career-interview.md)  
 **Content type:** Candidate and hiring playbook  

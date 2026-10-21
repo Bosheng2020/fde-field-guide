@@ -1,4 +1,4 @@
-# 用户采用、GTM 与可衡量价值
+# Forward Deployment 中的 AI 采用、GTM 与可衡量价值
 
 **语言：** [English](../en/08-adoption-gtm-value.md) · 简体中文  
 **内容类型：** 客户交付与商业化实战手册  
@@ -114,4 +114,11 @@ FDE 不一定属于销售，但优秀一线工作会塑造 Go-to-Market：
 - 核心模式确实可复用，而不是盲目复制。
 
 否则应继续改进、重构或停止。
+
+## 继续阅读
+
+- [执行部署生命周期](03-deployment-lifecycle.md)
+- [诊断挑战与反模式](09-challenges-antipatterns.md)
+- [使用部署复盘模板](../../templates/deployment-review.zh-CN.md)
+- [返回实战手册目录](../../README.zh-CN.md)
 

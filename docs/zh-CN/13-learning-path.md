@@ -1,4 +1,4 @@
-# FDE 30/60/90 天学习路径
+# Forward Deployed Engineer 30/60/90 天学习路径
 
 **语言：** [English](../en/13-learning-path.md) · 简体中文  
 **内容类型：** 实践型课程  

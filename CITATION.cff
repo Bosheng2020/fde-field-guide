@@ -1,20 +1,37 @@
 cff-version: 1.2.0
 message: "If you use the FIELD Framework or FDE Delivery Maturity Model, please cite this repository."
-title: "The Forward-Deployed Engineering Field Guide"
+title: "Forward Deployed Engineer (FDE) Field Guide"
 type: software
 authors:
   - family-names: Ding
     given-names: Bosheng
+    website: "https://www.boshengding.com/"
+abstract: >-
+  A bilingual, source-backed field guide to Forward Deployed Engineering for
+  production AI and LLM systems. It covers role boundaries, customer discovery,
+  architecture, AI agents, RAG, evaluation, observability, security, adoption,
+  GTM, post-training, career preparation, reusable delivery templates, and
+  Bosheng Ding's original FIELD Framework and FDE Delivery Maturity Model.
 url: "https://github.com/Bosheng2020/fde-field-guide"
 repository-code: "https://github.com/Bosheng2020/fde-field-guide"
 license: CC-BY-4.0
-version: 1.0.0
+version: 1.1.0
 date-released: 2026-10-22
 keywords:
   - forward-deployed-engineering
+  - forward-deployed-engineer
+  - forward-deployed-software-engineer
   - applied-ai
-  - llm
-  - agents
-  - evaluation
-  - deployment
+  - AI-deployment
+  - production-AI
+  - enterprise-AI
+  - LLM-systems
+  - AI-agents
+  - RAG
+  - AI-evaluation
+  - LLM-observability
+  - post-training
+  - solutions-engineering
+  - customer-engineering
+  - FIELD-Framework
 

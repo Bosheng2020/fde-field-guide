@@ -1,4 +1,4 @@
-# 挑战与反模式
+# Forward Deployed Engineering 的挑战与反模式
 
 **语言：** [English](../en/09-challenges-antipatterns.md) · 简体中文  
 **内容类型：** 诊断指南  
@@ -99,4 +99,11 @@
 - **扩展：** 采用/运营已在生产验证，并存在回归证据。
 
 分数应该触发决策和工作计划，而不是成为炫耀的总分。
+
+## 继续阅读
+
+- [应用 FIELD 框架](10-field-framework.md)
+- [查看用户采用、GTM 与可衡量价值](08-adoption-gtm-value.md)
+- [使用部署复盘模板](../../templates/deployment-review.zh-CN.md)
+- [返回实战手册目录](../../README.zh-CN.md)
 

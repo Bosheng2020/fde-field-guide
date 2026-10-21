@@ -6,8 +6,8 @@ All examples are fictional and educational unless explicitly marked otherwise. T
 
 | Scenario | English | 中文 |
 |---|---|---|
-| Financial research and risk-review copilot | [Read](financial-research-risk-copilot.md) | [阅读](financial-research-risk-copilot.zh-CN.md) |
-| Enterprise coding-workflow deployment | [Read](enterprise-coding-workflow.md) | [阅读](enterprise-coding-workflow.zh-CN.md) |
+| Financial research and risk-review copilot | [Financial research copilot case study](financial-research-risk-copilot.md) | [金融研究 Copilot 案例](financial-research-risk-copilot.zh-CN.md) |
+| Enterprise coding-workflow deployment | [Enterprise coding-workflow case study](enterprise-coding-workflow.md) | [企业编程工作流案例](enterprise-coding-workflow.zh-CN.md) |
 
 Each case follows the same contract: context, initial request, real workflow, constraints, thin slice, architecture, evaluation, rollout, operating evidence, FIELD retrospective, reusable learning, and limitations.
 

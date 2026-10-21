@@ -1,4 +1,4 @@
-# FDE Fundamentals
+# What Is a Forward Deployed Engineer (FDE)?
 
 **Language:** English · [简体中文](../zh-CN/01-fundamentals.md)  
 **Content type:** Source-backed industry summary + author synthesis  
@@ -93,4 +93,11 @@ The answers should be supported by evidence rather than a compelling demonstrati
 - [Scale AI’s public-sector FDSE role](https://scale.com/careers/4481921005) emphasizes embedding with users and owning delivery from prototype to production.
 
 See [Official Sources](../../resources/official-sources.md) for verification dates and additional context.
+
+## Continue reading
+
+- [Compare FDE with adjacent roles](02-role-map.md)
+- [Follow the deployment lifecycle](03-deployment-lifecycle.md)
+- [Use the FDE FAQ and glossary](14-faq-glossary.md)
+- [Return to the field-guide index](../../README.md)
 

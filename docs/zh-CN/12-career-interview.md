@@ -1,4 +1,4 @@
-# FDE 职业与面试指南
+# Forward Deployed Engineer 职业与面试指南
 
 **语言：** [English](../en/12-career-interview.md) · 简体中文  
 **内容类型：** 求职者与招聘者实战手册  

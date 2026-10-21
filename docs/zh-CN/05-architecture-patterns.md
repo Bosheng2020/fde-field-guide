@@ -1,4 +1,4 @@
-# FDE AI 系统架构模式
+# Forward Deployed Engineer 的 AI Agent 架构模式
 
 **语言：** [English](../en/05-architecture-patterns.md) · 简体中文  
 **内容类型：** 作者总结与工程手册  
@@ -136,4 +136,11 @@ flowchart TB
 10. 哪些客户特定部分会被上游合并、配置、本地维护或下线？
 
 可直接使用[架构与风险评审模板](../../templates/architecture-risk-review.zh-CN.md)。
+
+## 继续阅读
+
+- [评测 LLM 与 Agent 系统](06-evaluation-observability.md)
+- [设计生产安全与治理](07-security-governance.md)
+- [判断是否需要后训练](11-post-training.md)
+- [返回实战手册目录](../../README.zh-CN.md)
 

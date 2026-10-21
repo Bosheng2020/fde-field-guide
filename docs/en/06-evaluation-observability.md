@@ -1,4 +1,4 @@
-# Evaluation and Observability
+# LLM and AI Agent Evaluation for Production Deployment
 
 **Language:** English · [简体中文](../zh-CN/06-evaluation-observability.md)  
 **Content type:** Engineering playbook  
@@ -129,4 +129,11 @@ These are starting points, not universal standards:
 - Allowing evaluation data to become training data without a held-out set.
 
 Use the [evaluation plan template](../../templates/evaluation-plan.md). Official OpenAI guidance on [agent evaluations](https://developers.openai.com/api/docs/guides/agent-evals) and [evaluation best practices](https://developers.openai.com/api/docs/guides/evaluation-best-practices) provides useful implementation detail; verify product lifecycle notices in [OpenAI deprecations](https://developers.openai.com/api/docs/deprecations) before choosing hosted tooling.
+
+## Continue reading
+
+- [Review AI agent architecture patterns](05-architecture-patterns.md)
+- [Apply the post-training decision guide](11-post-training.md)
+- [Use the evaluation plan template](../../templates/evaluation-plan.md)
+- [Return to the field-guide index](../../README.md)
 

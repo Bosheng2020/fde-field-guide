@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="640" viewBox="0 0 1280 640" role="img" aria-labelledby="title desc">
+  <title id="title">Forward Deployed Engineer Field Guide</title>
+  <desc id="desc">Bilingual field guide to AI deployment, evaluations, agents, GTM, post-training, and the FIELD Framework by Bosheng Ding.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#071422"/>
+      <stop offset="0.55" stop-color="#102a43"/>
+      <stop offset="1" stop-color="#123f52"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#58d9d2"/>
+      <stop offset="1" stop-color="#8ab4ff"/>
+    </linearGradient>
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="18"/>
+    </filter>
+  </defs>
+
+  <rect width="1280" height="640" fill="url(#bg)"/>
+  <circle cx="1140" cy="86" r="190" fill="#58d9d2" opacity="0.08" filter="url(#glow)"/>
+  <circle cx="1060" cy="550" r="260" fill="#8ab4ff" opacity="0.08" filter="url(#glow)"/>
+
+  <g opacity="0.22" stroke="#b7fff9" stroke-width="2" fill="none">
+    <path d="M960 118 L1080 180 L1182 116 M1080 180 L1128 302 L1220 250 M1128 302 L1002 376 L1178 470 M1002 376 L930 500"/>
+    <circle cx="960" cy="118" r="8" fill="#58d9d2"/>
+    <circle cx="1080" cy="180" r="8" fill="#58d9d2"/>
+    <circle cx="1182" cy="116" r="8" fill="#8ab4ff"/>
+    <circle cx="1128" cy="302" r="8" fill="#8ab4ff"/>
+    <circle cx="1220" cy="250" r="8" fill="#58d9d2"/>
+    <circle cx="1002" cy="376" r="8" fill="#58d9d2"/>
+    <circle cx="1178" cy="470" r="8" fill="#8ab4ff"/>
+    <circle cx="930" cy="500" r="8" fill="#8ab4ff"/>
+  </g>
+
+  <rect x="72" y="62" width="395" height="38" rx="19" fill="#0f3447" stroke="#58d9d2" stroke-opacity="0.55"/>
+  <text x="96" y="87" fill="#b7fff9" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="18" font-weight="700" letter-spacing="2">OPEN · BILINGUAL · SOURCE-BACKED</text>
+
+  <text x="72" y="195" fill="#ffffff" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="70" font-weight="760" letter-spacing="-2">
+    <tspan x="72" dy="0">Forward Deployed</tspan>
+    <tspan x="72" dy="80">Engineer Field Guide</tspan>
+  </text>
+
+  <rect x="72" y="320" width="740" height="7" rx="3.5" fill="url(#accent)"/>
+  <text x="72" y="375" fill="#d5e7f2" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="27" font-weight="520">
+    AI deployment · Evals · Agents · GTM · Post-training
+  </text>
+
+  <g transform="translate(72 438)" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif">
+    <text x="0" y="0" fill="#8ab4ff" font-size="16" font-weight="750" letter-spacing="2">THE FIELD FRAMEWORK</text>
+    <g transform="translate(0 24)" fill="#eaf6fb" font-size="19" font-weight="600">
+      <text x="0" y="28">FRAME</text>
+      <text x="103" y="28" fill="#58d9d2">→</text>
+      <text x="136" y="28">INSTRUMENT</text>
+      <text x="272" y="28" fill="#58d9d2">→</text>
+      <text x="305" y="28">ENGINEER</text>
+      <text x="419" y="28" fill="#58d9d2">→</text>
+      <text x="452" y="28">LAUNCH</text>
+      <text x="544" y="28" fill="#58d9d2">→</text>
+      <text x="577" y="28">DISTILL</text>
+    </g>
+  </g>
+
+  <line x1="72" y1="548" x2="1208" y2="548" stroke="#a8c1d1" stroke-opacity="0.24"/>
+  <text x="72" y="596" fill="#ffffff" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="23" font-weight="650">Bosheng Ding</text>
+  <text x="1188" y="596" text-anchor="end" fill="#b7fff9" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="21" font-weight="650">EN / 中文</text>
+</svg>

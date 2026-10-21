@@ -1,4 +1,4 @@
-# Security, Governance, and Production Safety
+# Production AI Security and Governance for Forward Deployed Engineers
 
 **Language:** English · [简体中文](../zh-CN/07-security-governance.md)  
 **Content type:** Risk-oriented engineering guide  
@@ -120,4 +120,11 @@ Governance should accelerate decisions by making evidence visible—not create p
 - [MCP Security Best Practices](https://github.com/modelcontextprotocol/modelcontextprotocol/blob/main/docs/docs/2026-07-28/tutorials/security/security_best_practices.mdx)
 
 Frameworks are inputs, not proof that a deployment is safe. Apply controls to the actual workflow, data, tools, and consequences.
+
+## Continue reading
+
+- [Review AI agent architecture patterns](05-architecture-patterns.md)
+- [Build evaluation and observability](06-evaluation-observability.md)
+- [Use the architecture and risk review](../../templates/architecture-risk-review.md)
+- [Return to the field-guide index](../../README.md)
 

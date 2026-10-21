@@ -1,4 +1,4 @@
-# Adoption, GTM, and Measurable Value
+# AI Adoption, GTM, and Measurable Value in Forward Deployment
 
 **Language:** English · [简体中文](../zh-CN/08-adoption-gtm-value.md)  
 **Content type:** Customer delivery and commercialization playbook  
@@ -114,4 +114,11 @@ Expand only when:
 - the core pattern is reusable rather than copied blindly.
 
 Otherwise improve, redesign, or stop.
+
+## Continue reading
+
+- [Run the deployment lifecycle](03-deployment-lifecycle.md)
+- [Diagnose challenges and anti-patterns](09-challenges-antipatterns.md)
+- [Use the deployment review template](../../templates/deployment-review.md)
+- [Return to the field-guide index](../../README.md)
 

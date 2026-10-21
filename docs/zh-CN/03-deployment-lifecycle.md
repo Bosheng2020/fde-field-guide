@@ -1,4 +1,4 @@
-# 前线部署生命周期
+# Forward Deployed Engineering 生命周期：从需求发现到生产采用
 
 **语言：** [English](../en/03-deployment-lifecycle.md) · 简体中文  
 **内容类型：** 实战手册  
@@ -94,4 +94,11 @@ flowchart LR
 ```
 
 可以直接使用[一线信号模板](../../templates/field-signal.zh-CN.md)与[部署复盘模板](../../templates/deployment-review.zh-CN.md)。
+
+## 继续阅读
+
+- [应用 FIELD 框架](10-field-framework.md)
+- [设计评测与可观测性](06-evaluation-observability.md)
+- [使用生产上线清单](../../templates/launch-checklist.zh-CN.md)
+- [返回实战手册目录](../../README.zh-CN.md)
 

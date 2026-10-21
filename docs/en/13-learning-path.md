@@ -1,4 +1,4 @@
-# A 30/60/90-Day FDE Learning Path
+# A 30/60/90-Day Forward Deployed Engineer Learning Path
 
 **Language:** English · [简体中文](../zh-CN/13-learning-path.md)  
 **Content type:** Practice-based curriculum  

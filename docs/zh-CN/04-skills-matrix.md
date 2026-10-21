@@ -1,4 +1,4 @@
-# FDE 能力矩阵
+# Forward Deployed Engineer 能力矩阵
 
 **语言：** [English](../en/04-skills-matrix.md) · 简体中文  
 **内容类型：** 作者总结与自评量表  
@@ -71,4 +71,11 @@ AI 方向 FDE 应能理解并讨论：
 ## 自我评估方法
 
 为每个领域写下一项能够证明你所声称等级的产物或案例。如果无法指出证据，把自评降低一级，并设计一个能够产生证据的项目。
+
+## 继续阅读
+
+- [制定 30/60/90 天学习计划](13-learning-path.md)
+- [准备 FDE 面试](12-career-interview.md)
+- [学习部署生命周期](03-deployment-lifecycle.md)
+- [返回实战手册目录](../../README.zh-CN.md)
 

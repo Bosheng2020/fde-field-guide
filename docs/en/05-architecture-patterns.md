@@ -1,4 +1,4 @@
-# Architecture Patterns for Forward-Deployed AI Systems
+# AI Agent Architecture Patterns for Forward Deployed Engineers
 
 **Language:** English · [简体中文](../zh-CN/05-architecture-patterns.md)  
 **Content type:** Author synthesis and engineering playbook  
@@ -136,4 +136,11 @@ Choose models by task, data boundary, latency, quality, and cost. Make routing t
 10. Which customer-specific parts will be upstreamed, configured, owned, or sunset?
 
 Use the [architecture and risk review template](../../templates/architecture-risk-review.md).
+
+## Continue reading
+
+- [Evaluate LLM and agent systems](06-evaluation-observability.md)
+- [Design production security and governance](07-security-governance.md)
+- [Decide whether to post-train](11-post-training.md)
+- [Return to the field-guide index](../../README.md)
 

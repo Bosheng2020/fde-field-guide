@@ -1,4 +1,4 @@
-# Challenges and Anti-Patterns
+# Forward Deployed Engineering Challenges and Anti-Patterns
 
 **Language:** English · [简体中文](../zh-CN/09-challenges-antipatterns.md)  
 **Content type:** Diagnostic guide  
@@ -99,4 +99,11 @@ Suggested—not universal—gates:
 - **Scale:** adoption/operations is production-proven and regression evidence exists.
 
 The score should trigger a decision and work plan, not become a vanity total.
+
+## Continue reading
+
+- [Apply the FIELD Framework](10-field-framework.md)
+- [Review adoption, GTM, and measurable value](08-adoption-gtm-value.md)
+- [Use the deployment review template](../../templates/deployment-review.md)
+- [Return to the field-guide index](../../README.md)
 

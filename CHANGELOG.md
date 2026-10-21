@@ -2,6 +2,15 @@
 
 All notable content changes will be documented here.
 
+## [1.1.0] — 2026-10-22
+
+- Reworked both README entry points around exact role terminology and answer-first summaries.
+- Added concise, citation-friendly answers for FDE definitions, production readiness, success measurement, and post-training decisions.
+- Added a mirrored English and Simplified Chinese FAQ and glossary covering FDE, FDSE, adjacent roles, delivery concepts, and original-framework attribution.
+- Added direct first-party links for company role comparisons and a companion-essay backlink.
+- Expanded machine-readable citation metadata, keywords, author identity, and project scope.
+- Added a 1280×640 social preview asset and automated local Markdown link checks.
+
 ## [1.0.0] — 2026-10-22
 
 - Published the complete English and Simplified Chinese field guide.

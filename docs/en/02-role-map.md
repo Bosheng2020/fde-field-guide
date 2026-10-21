@@ -1,4 +1,4 @@
-# Role Map: FDE and Adjacent Functions
+# Forward Deployed Engineer vs. Solutions Engineer, Solutions Architect, and Consultant
 
 **Language:** English · [简体中文](../zh-CN/02-role-map.md)  
 **Content type:** Author synthesis informed by first-party role descriptions  
@@ -74,4 +74,11 @@ A common pod combines:
 - **Security / GRC:** risk acceptance and control design.
 
 One person may cover several roles in a small company. The responsibilities still need explicit owners.
+
+## Continue reading
+
+- [Understand FDE fundamentals](01-fundamentals.md)
+- [Assess FDE skills](04-skills-matrix.md)
+- [Review the FDE FAQ and glossary](14-faq-glossary.md)
+- [Return to the field-guide index](../../README.md)
 

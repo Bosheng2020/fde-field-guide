@@ -10,6 +10,7 @@ All notable content changes will be documented here.
 - Added direct first-party links for company role comparisons and a companion-essay backlink.
 - Expanded machine-readable citation metadata, keywords, author identity, and project scope.
 - Added a 1280×640 social preview asset and automated local Markdown link checks.
+- Added a restrained bilingual Star CTA that frames starring as bookmarking future updates.
 
 ## [1.0.0] — 2026-10-22
 

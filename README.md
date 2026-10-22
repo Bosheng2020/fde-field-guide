@@ -7,6 +7,8 @@
 
 **English** · [简体中文](README.zh-CN.md)
 
+> ⭐ If this guide helps you ship production AI or prepare for an FDE role, star the repository to bookmark future updates.
+
 **A bilingual, source-backed playbook for deploying AI and LLM systems—from ambiguous customer problems to safe, adopted, measurable production outcomes.**
 
 ## Forward-Deployed Engineering, in brief
